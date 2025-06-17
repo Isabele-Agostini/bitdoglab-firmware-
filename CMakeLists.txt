@@ -61,3 +61,4 @@ target_link_libraries(wifi-joystick+botao-led
 
 pico_add_extra_outputs(wifi-joystick+botao-led)
 
+add_compile_definitions(LWIP_NETCONN=1)
